@@ -3,7 +3,9 @@ import ThemeToogler from "./ThemeToogler";
 
 function Header(){
     return(
-        <header>
+        <header style={{
+            textAlign:"center"
+        }}>
             <h1>Theme Toogler App</h1>
             <ThemeToogler/>
         </header>
